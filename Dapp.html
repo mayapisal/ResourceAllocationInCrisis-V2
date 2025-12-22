@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>DApp Suite — Navigation</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <style>
+    body {
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      background: #f6f7fb;
+      color: #111;
+      margin: 0;
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 30px;
+      font-size: 2rem;
+      color: #0b74de;
+    }
+    .grid {
+      display: grid;
+      gap: 20px;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    .card {
+      background: #fff;
+      border-radius: 14px;
+      padding: 20px;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+      text-align: center;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+    .card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 10px 22px rgba(0,0,0,0.12);
+    }
+    .card h2 {
+      margin: 0 0 10px;
+      font-size: 1.3rem;
+      color: #222;
+    }
+    .card p {
+      font-size: 0.95rem;
+      color: #666;
+      margin-bottom: 16px;
+    }
+    .btn {
+      display: inline-block;
+      background: #0b74de;
+      color: #fff;
+      text-decoration: none;
+      padding: 10px 18px;
+      border-radius: 8px;
+      font-weight: 500;
+      transition: background 0.2s ease;
+    }
+    .btn:hover {
+      background: #095bb3;
+    }
+  </style>
+</head>
+<body>
+  <h1>DApp Navigation Portal</h1>
+  <div class="grid">
+    <div class="card">
+      <h2>Register Supplier</h2>
+      <p>DApp to onboard and register suppliers.</p>
+      <a class="btn" href="https://supplierregistrartiondapp.surge.sh/" target="_blank">Open DApp</a>
+    </div>
+    <div class="card">
+      <h2>Resource Supplier</h2>
+      <p>Manage supplier resources and capacities.</p>
+      <a class="btn" href="https://supplierdapp.surge.sh/" target="_blank">Open DApp</a>
+    </div>
+    <div class="card">
+      <h2>Demand Provider</h2>
+      <p>Create and manage demand requests.</p>
+      <a class="btn" href="https://demandproviderdapp.surge.sh/" target="_blank">Open DApp</a>
+    </div>
+    <div class="card">
+      <h2>Mapping & Allocation-old</h2>
+      <p>View allocation matrices and run allocations.</p>
+      <a class="btn" href="https://mandadapp.surge.sh/" target="_blank">Open DApp</a>
+    </div>
+    <div class="card">
+      <h2>Mapping & Allocation-new</h2>
+      <p>View allocation matrices and run allocations.</p>
+      <a class="btn" href="https://https://dappalloc-mapping.surge.sh//" target="_blank">Open DApp</a>
+    </div>
+    <div class="card">
+      <h2>Cross Utility</h2>
+      <p>Utilities and tools across all modules.</p>
+      <a class="btn" href="https://utilitydapp1.surge.sh/" target="_blank">Open DApp</a>
+    </div>
+  </div>
+</body>
+</html>
+
